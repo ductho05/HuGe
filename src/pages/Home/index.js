@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import classNames from 'classnames/bind'
 import styles from './Home.module.scss'
 import Button from '../../components/Button'
@@ -114,6 +114,10 @@ const testList = [
 const Home = () => {
 
   const ref = useRef(null)
+
+  useEffect(() => {
+    document.title = 'The #1 Source For Domain Names | HugeDomains'
+  }, [])
 
   const handleScrollDown = () => {
     ref.current.scrollIntoView({ behavior: 'smooth'}, 2)
