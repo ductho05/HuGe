@@ -1,0 +1,43 @@
+.wrapper {
+    background-color: #fff;
+}
+
+.revisit {
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    background-color: #0056a7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.mail {
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: #323031;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 38px;
+        height: 26px;
+    }
+}
